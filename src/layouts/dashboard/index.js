@@ -65,7 +65,7 @@ function Dashboard() {
                 color="primary"
                 icon="person_add"
                 title="Registered Users"
-                count="1945"
+                count="1946"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -79,11 +79,11 @@ function Dashboard() {
               <ComplexStatisticsCard
                 icon="leaderboard"
                 title="Total Downloads"
-                count="8784"
+                count="8788"
                 percentage={{
                   color: "success",
-                  amount: "+3%",
-                  label: "than last month",
+                  amount: "",
+                  label: "Updated 5 days ago",
                 }}
               />
             </MDBox>
@@ -97,8 +97,8 @@ function Dashboard() {
                 count={7400}
                 percentage={{
                   color: "success",
-                  amount: "+55%",
-                  label: "than lask week",
+                  amount: "",
+                  label: "Updated 5 days ago",
                 }}
               />
             </MDBox>
@@ -111,7 +111,7 @@ function Dashboard() {
                 <ReportsBarChart
                   color="info"
                   title="Daily Downloads"
-                  description="October 8 to October 15"
+                  description="October 07 to October 13"
                   date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />
