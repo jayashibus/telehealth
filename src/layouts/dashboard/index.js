@@ -49,11 +49,11 @@ function Dashboard() {
                 color="success"
                 icon="store"
                 title="Revenue"
-                count="109 SGD"
+                count="108.9 SGD"
                 percentage={{
                   color: "success",
-                  amount: "+1%",
-                  label: "than yesterday",
+                  amount: "",
+                  label: "In Last 10 months",
                 }}
               />
             </MDBox>
@@ -65,7 +65,7 @@ function Dashboard() {
                 color="primary"
                 icon="person_add"
                 title="Registered Users"
-                count="530"
+                count="1945"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -79,7 +79,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 icon="leaderboard"
                 title="Total Downloads"
-                count="7803"
+                count="8784"
                 percentage={{
                   color: "success",
                   amount: "+3%",
@@ -110,9 +110,9 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
-                  date="campaign sent 2 days ago"
+                  title="Daily Downloads"
+                  description="October 8 to October 15"
+                  date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />
               </MDBox>
@@ -121,12 +121,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
-                  title="daily sales"
-                  description={
-                    <>
-                      (<strong>+15%</strong>) increase in today sales.
-                    </>
-                  }
+                  title="Monthly Download"
+                  description="Jan-2022 to Oct-2022"
                   date="updated 4 min ago"
                   chart={sales}
                 />
@@ -136,8 +132,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
+                  title="Website Visit"
+                  description="Jan-2022 to Oct-2022"
                   date="just updated"
                   chart={tasks}
                 />
