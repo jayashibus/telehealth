@@ -103,6 +103,66 @@ function Dashboard() {
               />
             </MDBox>
           </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="error"
+                icon="store"
+                title="Revenue"
+                count="108.9 SGD"
+                percentage={{
+                  color: "success",
+                  amount: "",
+                  label: "In Last 10 months",
+                }}
+              />
+            </MDBox>
+          </Grid>
+
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="warning"
+                icon="person_add"
+                title="Registered Users"
+                count="1946"
+                percentage={{
+                  color: "success",
+                  amount: "",
+                  label: "Just updated",
+                }}
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                icon="leaderboard"
+                title="Total Downloads"
+                count="8788"
+                percentage={{
+                  color: "success",
+                  amount: "",
+                  label: "Updated 5 days ago",
+                }}
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="success"
+                icon="weekend"
+                title="Website Visit"
+                count={7400}
+                percentage={{
+                  color: "success",
+                  amount: "",
+                  label: "Updated 5 days ago",
+                }}
+              />
+            </MDBox>
+          </Grid>
         </Grid>
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
