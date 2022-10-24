@@ -65,7 +65,7 @@ function Dashboard() {
                 color="primary"
                 icon="person_add"
                 title="Registered Users"
-                count="1946"
+                count="1947"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -79,7 +79,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 icon="leaderboard"
                 title="Total Downloads"
-                count="8788"
+                count="8791"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -98,12 +98,12 @@ function Dashboard() {
                 percentage={{
                   color: "success",
                   amount: "",
-                  label: "Updated 5 days ago",
+                  label: "Updated 2 days ago",
                 }}
               />
             </MDBox>
           </Grid>
-          <Grid item xs={12} md={6} lg={3}>
+          {/* <Grid item xs={12} md={6} lg={3}>
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 color="error"
@@ -162,7 +162,7 @@ function Dashboard() {
                 }}
               />
             </MDBox>
-          </Grid>
+          </Grid> */}
         </Grid>
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
@@ -171,7 +171,7 @@ function Dashboard() {
                 <ReportsBarChart
                   color="info"
                   title="Daily Downloads"
-                  description="October 07 to October 13"
+                  description="October 14 to October 20"
                   date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />

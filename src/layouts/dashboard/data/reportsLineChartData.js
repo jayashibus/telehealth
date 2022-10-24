@@ -18,14 +18,14 @@ export default {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
     datasets: {
       label: "App Downloads",
-      data: [382, 1149, 1061, 1103, 1180, 1160, 1429, 1308, 21, 8],
+      data: [382, 1149, 1061, 1103, 1180, 1160, 1429, 1308, 21, 11],
     },
   },
   tasks: {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
     datasets: {
       label: "Website visit",
-      data: [613, 776, 792, 844, 1300, 1200, 1100, 816, 82, 23],
+      data: [613, 776, 792, 844, 1300, 1200, 1100, 816, 82, 27],
     },
   },
 };
