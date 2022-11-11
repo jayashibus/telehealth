@@ -171,7 +171,7 @@ function Dashboard() {
                 <ReportsBarChart
                   color="info"
                   title="Daily Downloads"
-                  description="October 14 to October 20"
+                  description="October 28 to November 03"
                   date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />
@@ -182,7 +182,7 @@ function Dashboard() {
                 <ReportsLineChart
                   color="success"
                   title="Monthly Download"
-                  description="Jan-2022 to Oct-2022"
+                  description="Jan-2022 to Nov-2022"
                   date="updated 4 min ago"
                   chart={sales}
                 />
@@ -193,7 +193,7 @@ function Dashboard() {
                 <ReportsLineChart
                   color="dark"
                   title="Website Visit"
-                  description="Jan-2022 to Oct-2022"
+                  description="Jan-2022 to Nov-2022"
                   date="just updated"
                   chart={tasks}
                 />
