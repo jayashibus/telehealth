@@ -171,7 +171,7 @@ function Dashboard() {
                 <ReportsBarChart
                   color="info"
                   title="Daily Downloads"
-                  description="October 28 to November 03"
+                  description="November 04 to November 10"
                   date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />
