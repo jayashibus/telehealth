@@ -18,7 +18,7 @@ export default {
     labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
     datasets: {
       label: "App Downloads",
-      data: [382, 1149, 1061, 1103, 1180, 1160, 1429, 1308, 21, 11, 0],
+      data: [382, 1149, 1061, 1103, 1180, 1160, 1429, 1308, 21, 11, 1],
     },
   },
   tasks: {

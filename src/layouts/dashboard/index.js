@@ -79,7 +79,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 icon="leaderboard"
                 title="Total Downloads"
-                count="8791"
+                count="8792"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -171,7 +171,7 @@ function Dashboard() {
                 <ReportsBarChart
                   color="info"
                   title="Daily Downloads"
-                  description="November 04 to November 10"
+                  description="November 11 to November 17"
                   date="Updated 2 days ago"
                   chart={reportsBarChartData}
                 />
